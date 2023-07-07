@@ -1,0 +1,130 @@
+{
+  "clients": [
+    {
+      "id": "2",
+      "name": "Bella",
+      "surname": "Phillips",
+      "address": "Main Street 7 Philadelphia",
+      "phoneNumber": "20946987",
+      "email": "mary@yahoo.com"
+    },
+    {
+      "id": "3",
+      "name": "Milanka",
+      "surname": "Narancic",
+      "email": "milanka.narancic@gmail.com",
+      "address": "JNA 29 Sirig",
+      "phoneNumber": "11111111111111111"
+    },
+    {
+      "id": "5",
+      "name": "Kate",
+      "surname": "Robertson",
+      "address": "Abbie Road 47 Philadelphia",
+      "phoneNumber": "707546987",
+      "email": "marks@yahoo.com"
+    },
+    {
+      "id": "6",
+      "name": "Clark",
+      "surname": "Bale",
+      "address": "Main Street 7 Philadelphia",
+      "phoneNumber": "20946987",
+      "email": "mary@yahoo.com"
+    },
+    {
+      "id": "7",
+      "name": "Emma",
+      "surname": "Norie",
+      "email": "milanka.narancic@gmail.com",
+      "address": "JNA 29 Sirig",
+      "phoneNumber": "11111111111111111"
+    },
+    {
+      "id": "8",
+      "name": "Laura",
+      "surname": "Blake",
+      "address": "Dositeja Obradovica 3",
+      "phoneNumber": "33322322",
+      "email": "tpetrovic@gmail.com"
+    },
+    {
+      "id": "9",
+      "name": "Milly",
+      "surname": "Hollyfield",
+      "address": "Abbie Road 47 Philadelphia",
+      "phoneNumber": "707546987",
+      "email": "marks@yahoo.com"
+    },
+    {
+      "id": "10",
+      "name": "Betty",
+      "surname": "Davis",
+      "address": "Main Street 7 Philadelphia",
+      "phoneNumber": "20946987",
+      "email": "mary@yahoo.com"
+    },
+    {
+      "id": "11",
+      "name": "Jack",
+      "surname": "Fritz",
+      "email": "milanka.narancic@gmail.com",
+      "address": "JNA 29 Sirig",
+      "phoneNumber": "11111111111111111"
+    },
+    {
+      "id": "13",
+      "name": "Markus",
+      "surname": "Rogers",
+      "address": "Abbie Road 47 Philadelphia",
+      "phoneNumber": "707546987",
+      "email": "marks@yahoo.com"
+    },
+    {
+      "id": "16",
+      "name": "Tom",
+      "surname": "White",
+      "address": "Dositeja Obradovica 3",
+      "phoneNumber": "33322322",
+      "email": "tpetrovic@gmail.com"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "xnq2wuw6f3h",
+      "date": "2022-10-10",
+      "time": "13:00",
+      "clientId": "1"
+    },
+    {
+      "id": "thft94bzj",
+      "date": "2022-10-17",
+      "time": "10:00",
+      "clientId": "3"
+    },
+    {
+      "id": "ca647qgu5wi",
+      "date": "2022-10-19",
+      "time": "00:00",
+      "clientId": "3"
+    },
+    {
+      "id": "zicv222wvva",
+      "date": "2022-11-17",
+      "time": "07:00",
+      "clientId": "3"
+    },
+    {
+      "id": "12y8saq50m4d",
+      "date": "2023-06-20",
+      "time": "19:32",
+      "clientId": "1"
+    },
+    {
+      "id": "w4azx3c2fs",
+      "date": "2023-06-18",
+      "time": "23:57",
+      "clientId": "11"
+    }
+  ]
+}
