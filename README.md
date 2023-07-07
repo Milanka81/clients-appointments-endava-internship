@@ -1,45 +1,70 @@
-# Getting Started
+# Clients-Appointments Application
 
-Since this project holds both the client application and the server application there will be node modules in two different places. First run npm install from the root. After this you will run 
+## Getting Started
 
-*React app:
--npm start
+To run this project, follow the steps below:
 
-*Express app:
--node app
+1. Clone the repository to your local machine.
+2. Install the required dependencies by running `npm install` from the root directory.
+3. Start the React app by running `npm start`.
+4. Start the Express app by running `node app`.
 
-# Stack
+## Technologies
 
--React
--React Router
--Redux
--Express
+This project is built using the following technologies:
+
+- React
+- React Router
+- Redux
+- Express
+
+## Application Specification
+
+### Home Page
+
+The home page of the application allows the user to choose between viewing a list of clients and a list of appointments. By clicking on the "Clients" option, the user will be redirected to the client list page. By clicking on the "Appointments" option, the user will be redirected to the appointments list page.
+
+### Client List Page
+
+The client list page displays a table of clients. The table is sorted by ID as the default sort order, but the user can also sort the table by any field in ascending or descending order. The page also provides a button that allows the user to navigate to another page using React Router.
+
+The client list page includes the following content:
+
+- Name
+- Surname
+- Address
+- Phone Number
+- Email
+- Save button
+- Cancel button
+
+The submit button is enabled only if all mandatory fields are filled. If the save request is successful, the user will be navigated back to the home page, and a success toast with the message "Success!" will be shown. If the save request fails, the user will remain on the same page, and an error toast with the message "Error!" should be displayed. Additionally, if the combination of name, surname, and email already exists, the save button will be disabled.
+
+The user can perform the following actions on the client list page:
+
+- Edit client details
+- View client details
+- Delete a client
+- Search for clients by various criteria
+
+### Appointments List Page
+
+The appointments list page displays a table of appointments. The table is sorted by ID as the default sort order, but the user can also sort the table by any field in ascending or descending order. The page also provides a button that allows the user to navigate to another page using React Router.
+
+The appointments list page includes the following content:
+
+- Date
+- Time
+- Dropdown to select client: name, surname and email is shown as option
 
 
-# Clients-Appointments Application specification
+The submit button is enabled only if all mandatory fields are filled. If the save request is successful, the user will be navigated back to the home page, and a success toast with the message "Success!" will be shown. If the save request fails, the user will remain on the same page, and an error toast with the message "Error!" should be displayed. Additionally, if the combination of name, surname, and email already exists, the save button will be disabled.
 
-* Home Page
-    - User is able to choose between List of Clients and List of Appointments
-    - clicking on clients redirects to client list page 
-    - clicking on appointments redirects to appointments list page
+The user can perform the following actions on the appointments list page:
 
-* Lists of Clients and Appointments contains one table each.
+- Edit appointment details
+- View appointment details
+- Delete an appointment
 
-    - tables are sorted by id as a default sort, but it can be sorted by all fields asc and desc
-    - User can see the button on both lists which redirects to another page using React Router 
 
-* User can Add client and appointment
-    -Clients page content:
-        - name, surname, address, phoneNumber, email, save and cancel buttons. 
-    -Appointments page content:
-        -date, time, search client by corresponding name and surname 
 
-    - submit button is enabled if all mandatory fields are filled
-    - if save request is successful, user is navigated to home page and successful toast 'Success!' is shown
-    - if save request is not successful, user remains on the same page and error toast should be shown 'Error!'
-    - if the same combination of name + surname + email exist, the save button is disabled
-    User also can:
-* Edit client and appointment
-* View client and appointment
-* Delete client and appointment
-* Search clients and appointments
