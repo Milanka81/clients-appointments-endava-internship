@@ -1,4 +1,20 @@
-# clients-appointments-endava-internship
+# Getting Started
+
+Since this project holds both the client application and the server application there will be node modules in two different places. First run npm install from the root. After this you will run 
+
+*React app:
+-npm start
+
+*Express app:
+-node app
+
+# Stack
+
+-React
+-React Router
+-Redux
+-Express
+
 
 # Clients-Appointments Application specification
 
