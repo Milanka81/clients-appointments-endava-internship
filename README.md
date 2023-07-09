@@ -1,5 +1,7 @@
 # Clients-Appointments Application
 
+The Client and Appointments Management Web Application leverages the power of React, React Router 6, Redux, Material UI, Axios, and Node.js to provide users with a user-friendly and efficient platform for managing clients and appointments. 
+
 ## Getting Started
 
 To run this project, follow the steps below:
