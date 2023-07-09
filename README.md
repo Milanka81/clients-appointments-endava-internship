@@ -11,15 +11,6 @@ To run this project, follow the steps below:
 3. Start the React app by running `npm start`.
 4. Start the Express app by running `node app`.
 
-## Technologies
-
-This project is built using the following technologies:
-
-- React
-- React Router
-- Redux
-- Express
-
 ## Application Specification
 
 ### Home Page
