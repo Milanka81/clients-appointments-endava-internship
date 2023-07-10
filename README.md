@@ -2,6 +2,8 @@
 
 The Client and Appointments Management Web Application has been created using React, React Router 6, Redux, Material UI, Axios, and Node.js to provide users with a user-friendly and efficient platform for managing clients and appointments.
 
+The project was part of an React Internship and built on previously provided backend.
+
 ## Getting Started
 
 To run this project, follow the steps below:
